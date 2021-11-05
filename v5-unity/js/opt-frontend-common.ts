@@ -94,7 +94,7 @@ export abstract class AbstractBaseFrontend {
                                         // (but that's just an unsubstantiated hunch)
 
   // randomly pick one backup server to load balance:
-  backupHttpServerRoot = (Math.random() >= 0.5) ? 'http://45.33.41.179/' : 'http://23.239.12.25/';
+  backupHttpServerRoot = 'http://142.93.219.188/'; 
 
   // see ../../v4-cokapi/cokapi.js for details
   langSettingToJsonpEndpoint = {

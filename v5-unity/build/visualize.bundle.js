@@ -22323,7 +22323,8 @@ var AbstractBaseFrontend = /** @class */ (function () {
             'http://cokapi.com/'; // try cokapi.com so that hopefully it works through firewalls better than directly using IP addr
         // (but that's just an unsubstantiated hunch)
         // randomly pick one backup server to load balance:
-        this.backupHttpServerRoot = (Math.random() >= 0.5) ? 'http://45.33.41.179/' : 'http://23.239.12.25/';
+        this.backupHttpServerRoot = 'http://142.93.219.188/';
+
         // see ../../v4-cokapi/cokapi.js for details
         this.langSettingToJsonpEndpoint = {
             '2': null,
